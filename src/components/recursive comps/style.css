@@ -1,0 +1,15 @@
+*{
+  margin: 5px;padding: 0;
+}
+
+button{
+  margin-left: 10px;
+  width: 30px;
+  height: 25px;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  list-style: none;
+}
