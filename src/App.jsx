@@ -6,6 +6,7 @@ import RandColorGenerate from './components/Random Color Generator/RandColorGene
 import StarRating from './components/Rating/StarRating'
 import Recursion from './components/recursive comps/Recursion'
 import menuList from './components/recursive comps/menuList'
+import QrCodeScanner from './components/QR code scanner/QrCodeScanner'
 function App() {
 
   return (
@@ -15,7 +16,8 @@ function App() {
     {/* <StarRating/> */}
     {/* <ImageSlider url = "https://picsum.photos/v2/list?limit=10"/> */}
     {/* <Loading/> */}
-    <Recursion menuList = {menuList}/>
+    {/* <Recursion menuList = {menuList}/> */}
+    <QrCodeScanner/>
     </>
   )
 }
