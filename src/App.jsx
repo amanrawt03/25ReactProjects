@@ -7,6 +7,7 @@ import StarRating from './components/Rating/StarRating'
 import Recursion from './components/recursive comps/Recursion'
 import menuList from './components/recursive comps/menuList'
 import QrCodeScanner from './components/QR code scanner/QrCodeScanner'
+import ThemeChanger from './components/theme-changer/ThemeChanger'
 function App() {
 
   return (
@@ -17,7 +18,8 @@ function App() {
     {/* <ImageSlider url = "https://picsum.photos/v2/list?limit=10"/> */}
     {/* <Loading/> */}
     {/* <Recursion menuList = {menuList}/> */}
-    <QrCodeScanner/>
+    {/* <QrCodeScanner/> */}
+    <ThemeChanger/>
     </>
   )
 }
