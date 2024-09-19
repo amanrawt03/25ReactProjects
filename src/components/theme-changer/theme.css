@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  padding: 20px;
+}
+
+button {
+  margin-top: 20px;
+  width: 120px;
+  height: 45px;
+  border-radius: 15px;
+  font-size: 14px;
+  padding: 2px;
+}
+.text-box {
+  width: 45vw;
+  font-size: 20px;
+}
+
+.light {
+  background-color: rgb(237, 208, 208);
+  color: rgb(100, 14, 14);
+}
+.light button {
+  background-color: rgb(84, 12, 12);
+  color: rgba(247, 161, 161, 0.952);
+}
+
+.dark {
+  color: rgb(237, 208, 208);
+  background-color: rgb(100, 14, 14);
+}
+
+.dark button {
+  color: rgb(84, 12, 12);
+  background-color: rgba(247, 161, 161, 0.952);
+}
