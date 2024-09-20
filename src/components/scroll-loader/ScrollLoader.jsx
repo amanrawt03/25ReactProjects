@@ -35,7 +35,7 @@ const ScrollLoader = ({ url }) => {
     <div className="container">
       <div className="header">
       <h1>List of Products</h1>
-      <div className="loading"></div>
+      <div className="loading" style={{width: `${scrollPercent}%`}}></div>
       </div>
       
       {products && products.length > 0
@@ -52,4 +52,3 @@ const ScrollLoader = ({ url }) => {
 };
 
 export default ScrollLoader;
-// style={{width: `${scrollPercent}%`}}

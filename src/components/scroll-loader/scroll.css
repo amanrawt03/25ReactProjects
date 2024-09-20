@@ -8,19 +8,20 @@
 
 .header {
   position: fixed;
-  z-index: 1;
+  top: 0;
+  padding-top: 10px;
   height: 12vh;
   width: 100%;
   text-align: center;
-  /* padding-top: 20px; */
   background-color: rgb(100, 27, 39);
   color: rgb(246, 241, 235);
 }
+
 .loading {
-  top: 10.8vh;
-  position: absolute;
+  width: 0%;
   height: 2vh;
-  background-color: rgb(30, 40, 41);
+  margin-top: 4.8vh;
+  background-color: rgb(80, 194, 19);
   color: rgb(246, 241, 235);
 }
 
