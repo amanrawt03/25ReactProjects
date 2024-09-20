@@ -1,0 +1,31 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(246, 241, 235);
+  color: rgb(100, 27, 39);
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  height: 12vh;
+  width: 100%;
+  text-align: center;
+  /* padding-top: 20px; */
+  background-color: rgb(100, 27, 39);
+  color: rgb(246, 241, 235);
+}
+.loading {
+  top: 10.8vh;
+  position: absolute;
+  height: 2vh;
+  background-color: rgb(30, 40, 41);
+  color: rgb(246, 241, 235);
+}
+
+h4 {
+  margin-top: 8px;
+  font-size: large;
+  color: rgba(37, 15, 18, 0.505);
+}

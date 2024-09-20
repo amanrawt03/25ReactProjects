@@ -1,4 +1,3 @@
-import './App.css'
 import Accordian from './components/accordian/Accordian'
 import ImageSlider from './components/image slider/ImageSlider'
 import Loading from './components/Load More/Loading'
@@ -8,6 +7,7 @@ import Recursion from './components/recursive comps/Recursion'
 import menuList from './components/recursive comps/menuList'
 import QrCodeScanner from './components/QR code scanner/QrCodeScanner'
 import ThemeChanger from './components/theme-changer/ThemeChanger'
+import ScrollLoader from './components/scroll-loader/ScrollLoader'
 function App() {
 
   return (
@@ -19,7 +19,8 @@ function App() {
     {/* <Loading/> */}
     {/* <Recursion menuList = {menuList}/> */}
     {/* <QrCodeScanner/> */}
-    <ThemeChanger/>
+    {/* <ThemeChanger/> */}
+    <ScrollLoader url = {'https://dummyjson.com/products?limit=100'}/>
     </>
   )
 }
