@@ -1,0 +1,62 @@
+*{
+  margin: 0;padding: 0;
+}
+.main{
+  background-color: rgb(206, 206, 228);
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.searchBar{
+  height: 10vh;
+  background-color: rgb(62, 62, 203);
+  padding-top: 30px;
+  
+}
+input{
+  height: 28px;
+  width: 200px;
+  margin-right: 8px;
+  padding: 4px;
+  text-align: center;
+  font-style: italic;
+  border-radius: 10px;
+  border: 0;
+  color:rgb(7, 7, 109); ;
+  
+}
+button{
+  color:rgb(206, 206, 228); 
+  background-color:rgb(7, 7, 109); ;
+  height: 30px;
+  width: 70px;
+  margin-right: 8px;
+  padding: 4px;
+  text-align: center;
+  font-style: italic;
+  border-radius: 10px;
+  border: 0;
+}
+.profile{
+  height: 85.7vh;
+  background-color: darkblue;
+  width: 20vw;
+  text-align: center;
+  margin-left: 40vw;
+  color: rgb(206, 206, 228); 
+}
+
+img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top: 25px ;
+  border: 3px solid rgb(160, 39, 39);;
+}
+h3{
+  margin-top: 15px;
+}
+a{
+  color: rgb(193, 47, 47);
+  ;
+}

@@ -10,6 +10,7 @@ import ThemeChanger from "./components/theme-changer/ThemeChanger";
 import ScrollLoader from "./components/scroll-loader/ScrollLoader";
 import DynamicTabs from "./components/Dynamic-Tabs/DynamicTabs";
 import CustomModal from "./components/cutomizable-modal/CustomModal";
+import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 function App() {
   return (
     <>
@@ -23,7 +24,8 @@ function App() {
       {/* <ThemeChanger/> */}
       {/* <ScrollLoader url = {'https://dummyjson.com/products?limit=100'}/> */}
       {/* <DynamicTabs/> */}
-      <CustomModal/>
+      {/* <CustomModal/> */}
+      <GithubProfileFinder/>
     </>
   );
 }
