@@ -1,0 +1,36 @@
+.tab-container{
+  height: 90vh;
+  width: 60vw;
+  background-color: rgb(234, 186, 186);
+  display: flex;
+  padding-top: 20px ;
+  padding-left: 40px ;
+  margin-top: 30px;
+}
+
+.tab{
+  background-color: rgb(156, 113, 113);
+  color: rgb(103, 25, 25);
+  height: 25px;
+  width: 80px;
+  margin-right: 2px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+  height: 80vh;
+  width: 40vw;
+  background-color: rgb(199, 65, 96);
+  padding-top: 20px;
+  font-size: 18px;
+  color: bisque;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.opened{
+  background-color: rgb(103, 25, 25);
+  color: rgb(156, 113, 113);
+  height: 25px;
+}
