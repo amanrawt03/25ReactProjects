@@ -11,6 +11,7 @@ import ScrollLoader from "./components/scroll-loader/ScrollLoader";
 import DynamicTabs from "./components/Dynamic-Tabs/DynamicTabs";
 import CustomModal from "./components/cutomizable-modal/CustomModal";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
+import NameSuggestions from "./components/name-suggestions/NameSuggestions";
 function App() {
   return (
     <>
@@ -25,7 +26,8 @@ function App() {
       {/* <ScrollLoader url = {'https://dummyjson.com/products?limit=100'}/> */}
       {/* <DynamicTabs/> */}
       {/* <CustomModal/> */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+      <NameSuggestions/>
     </>
   );
 }
