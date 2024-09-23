@@ -12,6 +12,7 @@ import DynamicTabs from "./components/Dynamic-Tabs/DynamicTabs";
 import CustomModal from "./components/cutomizable-modal/CustomModal";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 import NameSuggestions from "./components/name-suggestions/NameSuggestions";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 function App() {
   return (
     <>
@@ -20,14 +21,15 @@ function App() {
       {/* <StarRating/> */}
       {/* <ImageSlider url = "https://picsum.photos/v2/list?limit=10"/> */}
       {/* <Loading/> */}
-      {/* <Recursion menuList = {menuList}/> */}
+      {/* /'<Recursion menuList = {menuList}/> */}
       {/* <QrCodeScanner/> */}
       {/* <ThemeChanger/> */}
       {/* <ScrollLoader url = {'https://dummyjson.com/products?limit=100'}/> */}
       {/* <DynamicTabs/> */}
       {/* <CustomModal/> */}
       {/* <GithubProfileFinder/> */}
-      <NameSuggestions/>
+      {/* <NameSuggestions/> */}
+      <TicTacToe/>
     </>
   );
 }
